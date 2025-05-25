@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday</title>
+  <link rel="stylesheet" href="assests/style.css">
+</head>
+<body>
+ <div class="container">
+    <section class="anime-section">
+      <div class="aot-image">
+        <div class="slideshow-container">
+          <div class="slide active">
+            <img src="./vid1.mp4" alt="Photoshoot video" />
+          </div>
+          <div class="slide">
+            <video muted autoplay loop>
+              <source src="./vid1.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="slide">
+            <img src="./image1.jpg" alt="Picture 1" />
+          </div>
+          <div class="slide">
+            <video muted autoplay loop>
+              <source src="./vid2.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="slide">
+            <img src="./image2.jpg" alt="Attack on Titan Image 3" />
+          </div>
+          <div class="slide">
+            <video muted autoplay loop>
+              <source src="./vid3.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="slide">
+            <img src="./image3.jpg" alt="Attack on Titan Image 4" />
+          </div>
+
+
+          <!-- Navigation arrows -->
+          <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+          <a class="next" onclick="changeSlide(1)">&#10095;</a>
+
+          <div class="dots-container">
+          <span class="dot active-dot" onclick="currentSlide(0)"></span>
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <span class="dot" onclick="currentSlide(7)"></span>
+          <!-- <span class="dot" onclick="currentSlide(8)"></span>
+          <span class="dot" onclick="currentSlide(9)"></span>
+          <span class="dot" onclick="currentSlide(10)"></span> -->
+        </div>    
+      </div>
+    </section>     
+  </div>
+  <script src="index.js"></script>
+</body> 
+
+
+
+  
+  
+
+
+
+
+
+
+

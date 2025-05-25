@@ -1,0 +1,90 @@
+/* body{
+  background-color: purple;
+} */
+#login{
+  text-align: center;
+  padding-top:250px;
+}
+#login button{
+  background-color: #fff;
+  color: purple;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+/* .body{
+  position:relative;
+}
+.balloons img{
+  height: 100px;
+  position: absolute;
+}
+.balloons img:nth-child(1){
+  animation: move 10s 2s linear infinite;
+}
+.balloons img:nth-child(2){
+  left: 80px;
+  animation: move 15s 3s linear infinite;
+}
+.balloons img:nth-child(3){
+  left: 180px;
+  animation: move 18s 1s linear infinite;
+}
+.balloons img:nth-child(4){
+  left: 300px;
+  animation: move 20s 4s linear infinite;
+}
+.balloons img:nth-child(5){
+  left: 500px;
+  animation: move 12s 3s linear infinite;
+}
+.balloons img:nth-child(6){
+  left: 550px;
+  animation: move 21s 2s linear infinite;
+}
+.balloons img:nth-child(7){
+  left: 600px;
+  animation: move 10s 2s linear infinite;
+}
+.balloons img:nth-child(8){
+  left: 720px;
+  animation: move 10s 5s linear infinite;
+}
+.balloons img:nth-child(9){
+  left: 750px;
+  animation: move 17s 3s linear infinite;
+}
+.balloons img:nth-child(10){
+  left: 800px;
+  animation: move 16s 2s linear infinite;
+}
+
+@keyframes move{
+ 0%{
+    top: -50px;
+   transform: rotate(45deg);
+  }
+ 25%{
+    top: 200px;
+   transform: translateX(-10px) rotate(90deg);
+  }
+ 50%{
+    top: 350px;
+   transform: translateY(-30px) rotate(180deg);
+  }
+ 75%{
+    top: 500px;
+   transform: translateX(20px) scale(0.5) rotate(270deg);
+  }
+ 100%{
+    top: 600px;
+   transform: rotate(360deg);
+  }
+} */
